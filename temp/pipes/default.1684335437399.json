@@ -1,0 +1,120 @@
+{
+  "name": "default",
+  "logs": [
+    {
+      "message": "{green-fg}{bold}Ganache Online{/bold}{/green-fg} {magenta-fg}=>{/magenta-fg}{/cyan-fg} http://localhost:8545",
+      "pure": "Ganache Online => http://localhost:8545",
+      "index": 0,
+      "time": 1684335436210
+    },
+    {
+      "message": "? {cyan-fg}Current network is hardhat{/}",
+      "pure": "? Current network is hardhat",
+      "index": 1,
+      "time": 1684335437222
+    },
+    {
+      "message": "{green-fg}{bold}InfinityMint API Online{/} {magenta-fg}=>{/magenta-fg}{/cyan-fg} http://localhost:1337",
+      "pure": "InfinityMint API Online => http://localhost:1337",
+      "index": 2,
+      "time": 1684335437248
+    },
+    {
+      "message": "? Initializing InfinityConsole{cyan-fg}{cyan-fg}<36015c94-ba80-4837-8127-02c21a4a15ec>{/cyan-fg}{/cyan-fg}",
+      "pure": "? Initializing InfinityConsole<36015c94-ba80-4837-8127-02c21a4a15ec>",
+      "index": 3,
+      "time": 1684335437265
+    },
+    {
+      "message": "{cyan-fg}Starting IPFS Integration{/}",
+      "pure": "Starting IPFS Integration",
+      "index": 4,
+      "time": 1684335437265
+    },
+    {
+      "message": "{gray-fg}Checking IPFS Companion app is installed...{/}",
+      "pure": "Checking IPFS Companion app is installed...",
+      "index": 5,
+      "time": 1684335437266
+    },
+    {
+      "message": "\t {magenta-fg}=>{/magenta-fg}{/cyan-fg} {underline}IPFS Kubo is available for use{/}",
+      "pure": "\t => IPFS Kubo is available for use",
+      "index": 6,
+      "time": 1684335437266
+    },
+    {
+      "message": "{green-fg}{bold}IPFS Integration{/} {magenta-fg}=>{/magenta-fg}{/cyan-fg} Enabled",
+      "pure": "IPFS Integration => Enabled",
+      "index": 7,
+      "time": 1684335437266
+    },
+    {
+      "message": "?️ {bold}{cyan-fg}Compiling Contracts{/}",
+      "pure": "?️ Compiling Contracts",
+      "index": 8,
+      "time": 1684335437266
+    },
+    {
+      "message": "Nothing to compile",
+      "pure": "Nothing to compile",
+      "index": 9,
+      "time": 1684335437302
+    },
+    {
+      "message": "{bold}💭 Loading Infinity Mint {magenta-fg}=>{/magenta-fg}{/cyan-fg} v1.12.3{/} ",
+      "pure": "💭 Loading Infinity Mint => v1.12.3 ",
+      "index": 10,
+      "time": 1684335437314
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Gems{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Gems ",
+      "index": 11,
+      "time": 1684335437316
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Templates{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Templates ",
+      "index": 12,
+      "time": 1684335437330
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Export Solutions{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Export Solutions ",
+      "index": 13,
+      "time": 1684335437343
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Express Routes{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Express Routes ",
+      "index": 14,
+      "time": 1684335437352
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Custom Blessed Components{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Custom Blessed Components ",
+      "index": 15,
+      "time": 1684335437357
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Windows{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Windows ",
+      "index": 16,
+      "time": 1684335437374
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Web3{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Web3 ",
+      "index": 17,
+      "time": 1684335437383
+    },
+    {
+      "message": "\t{green-fg}Successfully Loaded Scripts{/green-fg} ",
+      "pure": "\tSuccessfully Loaded Scripts ",
+      "index": 18,
+      "time": 1684335437393
+    }
+  ],
+  "errors": []
+}

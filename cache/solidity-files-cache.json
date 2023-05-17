@@ -1,0 +1,1585 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/Asset.sol": {
+      "lastModificationDate": 1684334817728,
+      "contentHash": "f07b91c295c1d55dae2d77ecc079d8e5",
+      "sourceName": "alpha/Asset.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./RandomNumber.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Asset"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/RandomNumber.sol": {
+      "lastModificationDate": 1684334817731,
+      "contentHash": "7b299f91fdc3bd228067b93b3b55264c",
+      "sourceName": "alpha/RandomNumber.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./InfinityMintValues.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RandomNumber"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintValues.sol": {
+      "lastModificationDate": 1684334817731,
+      "contentHash": "af4150054a3d2d9a99f010a1f144578b",
+      "sourceName": "alpha/InfinityMintValues.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintValues"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/Minter.sol": {
+      "lastModificationDate": 1684334817731,
+      "contentHash": "dbfaa3a1e011270095bc38abc1943756",
+      "sourceName": "alpha/Minter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Authentication.sol",
+        "./InfinityMintStorage.sol",
+        "./Asset.sol",
+        "./RandomNumber.sol",
+        "./InfinityMintObject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Minter"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/Authentication.sol": {
+      "lastModificationDate": 1684334817728,
+      "contentHash": "79210ced6ddc19b79050f68fc3fe08dc",
+      "sourceName": "alpha/Authentication.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./InfinityMintObject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Authentication"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintStorage.sol": {
+      "lastModificationDate": 1684334817730,
+      "contentHash": "3774077b5f771abe6522d751c6facdd1",
+      "sourceName": "alpha/InfinityMintStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./InfinityMintObject.sol",
+        "./Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintStorage"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintObject.sol": {
+      "lastModificationDate": 1684334817730,
+      "contentHash": "b8263102908e21c4d95d9ac496e8fea5",
+      "sourceName": "alpha/InfinityMintObject.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./InfinityMintUtil.sol",
+        "./InfinityMintValues.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintObject"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintUtil.sol": {
+      "lastModificationDate": 1684334817730,
+      "contentHash": "361af0f63d66d5ef5510a0fb5ad5bae9",
+      "sourceName": "alpha/InfinityMintUtil.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintUtil"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/minter/SelectiveMinter.sol": {
+      "lastModificationDate": 1684334817733,
+      "contentHash": "3c4e4e9a73708a614ed211c22bf81a47",
+      "sourceName": "alpha/core/minter/SelectiveMinter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Minter.sol",
+        "../../InfinityMintObject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SelectiveMinter"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/minter/DefaultMinter.sol": {
+      "lastModificationDate": 1684334817733,
+      "contentHash": "74389ab1b2a18350b7a9e79a57cc728a",
+      "sourceName": "alpha/core/minter/DefaultMinter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Minter.sol",
+        "../../InfinityMintObject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DefaultMinter"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/stickers/StickersV2.sol": {
+      "lastModificationDate": 1684334817736,
+      "contentHash": "0082dcb2961843ab9570dbd083c765bc",
+      "sourceName": "alpha/stickers/StickersV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "./StickerOracle.sol",
+        "../Authentication.sol",
+        "../IntegrityInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StickersV2"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/ERC721.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "5a75785091d404da4f7b6cb49eecc18d",
+      "sourceName": "alpha/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./ERC165.sol",
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/IntegrityInterface.sol": {
+      "lastModificationDate": 1684334817731,
+      "contentHash": "fb5c1c171404a46219b39e387c88cd02",
+      "sourceName": "alpha/IntegrityInterface.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IntegrityInterface"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/stickers/StickerOracle.sol": {
+      "lastModificationDate": 1684334817736,
+      "contentHash": "8e8267262b757be8624fff77757e167c",
+      "sourceName": "alpha/stickers/StickerOracle.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Authentication.sol",
+        "../ERC721.sol",
+        "./StickerOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StickerOracle"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/IERC721.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "b83f104d7bc4a32a845e101685b87a98",
+      "sourceName": "alpha/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721",
+        "IERC721Metadata",
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/IERC165.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "alpha/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/ERC165.sol": {
+      "lastModificationDate": 1684334817728,
+      "contentHash": "98e7cfdcacaa3a0821167c8d96251213",
+      "sourceName": "alpha/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/legacy/EADStickers.sol": {
+      "lastModificationDate": 1684334817734,
+      "contentHash": "d0f3c8cd962548a622da9d5f95a4e0e3",
+      "sourceName": "alpha/legacy/EADStickers.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Stickers.sol",
+        "../ERC721.sol",
+        "../IntegrityInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EADStickers"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/legacy/Stickers.sol": {
+      "lastModificationDate": 1684334817735,
+      "contentHash": "4c98057cb30cf980666138801c9e2409",
+      "sourceName": "alpha/legacy/Stickers.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../links/Wallet.sol",
+        "./StickerInterface.sol",
+        "../IntegrityInterface.sol",
+        "../Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Stickers"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/links/Wallet.sol": {
+      "lastModificationDate": 1684334817736,
+      "contentHash": "4c25296befce2b93ff41b91323af2c4e",
+      "sourceName": "alpha/links/Wallet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IWallet.sol",
+        "../Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Wallet"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/legacy/StickerInterface.sol": {
+      "lastModificationDate": 1684334817735,
+      "contentHash": "552a74498f7ca58fd58065293cda728c",
+      "sourceName": "alpha/legacy/StickerInterface.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StickerInterface"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/links/IWallet.sol": {
+      "lastModificationDate": 1684334817735,
+      "contentHash": "ebf39ffee0b6f5c83d91efc31e43b448",
+      "sourceName": "alpha/links/IWallet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IWallet"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/links/TokenWallet.sol": {
+      "lastModificationDate": 1684334817736,
+      "contentHash": "04f228946438ed7bcba78ffa4146c006",
+      "sourceName": "alpha/links/TokenWallet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Wallet.sol",
+        "../IntegrityInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenWallet"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintLinker.sol": {
+      "lastModificationDate": 1684334817730,
+      "contentHash": "d51ded6393158fdcefe4d53e1bc94e19",
+      "sourceName": "alpha/InfinityMintLinker.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Authentication.sol",
+        "./IntegrityInterface.sol",
+        "./InfinityMintStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintLinker"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMint.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "b5daefa4427dc9c986730edf57e31d62",
+      "sourceName": "alpha/InfinityMint.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721.sol",
+        "./InfinityMintStorage.sol",
+        "./Royalty.sol",
+        "./Authentication.sol",
+        "./Minter.sol",
+        "./InfinityMintObject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMint"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/Royalty.sol": {
+      "lastModificationDate": 1684334817731,
+      "contentHash": "79644dc34ccb00697e590023d9054f09",
+      "sourceName": "alpha/Royalty.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Royalty"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintApi.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "7425f012c3945590d032599a04bea92e",
+      "sourceName": "alpha/InfinityMintApi.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./InfinityMint.sol",
+        "./Asset.sol",
+        "./InfinityMintValues.sol",
+        "./Royalty.sol",
+        "./InfinityMintProject.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintApi"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintProject.sol": {
+      "lastModificationDate": 1684334817730,
+      "contentHash": "82aacf0ecb3c503b1057f6304697fa69",
+      "sourceName": "alpha/InfinityMintProject.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintProject"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/royalty/SplitRoyalty.sol": {
+      "lastModificationDate": 1684334817734,
+      "contentHash": "5ac5687e26237c7a1cf0194afce71cec",
+      "sourceName": "alpha/core/royalty/SplitRoyalty.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Royalty.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SplitRoyalty"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/royalty/DefaultRoyalty.sol": {
+      "lastModificationDate": 1684334817734,
+      "contentHash": "8b516126c73361e4654c97c203cd8fb5",
+      "sourceName": "alpha/core/royalty/DefaultRoyalty.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Royalty.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DefaultRoyalty"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/random/UnsafeRandom.sol": {
+      "lastModificationDate": 1684334817733,
+      "contentHash": "cce991f5675f40afa8cd29f4e81c1edf",
+      "sourceName": "alpha/core/random/UnsafeRandom.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "../../RandomNumber.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UnsafeRandom"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1684334167527,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/random/SeededRandom.sol": {
+      "lastModificationDate": 1684334817733,
+      "contentHash": "012d0f3325146ee00e6d1685b66e4097",
+      "sourceName": "alpha/core/random/SeededRandom.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "../../RandomNumber.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SeededRandom"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/InfinityMintAsset.sol": {
+      "lastModificationDate": 1684334817729,
+      "contentHash": "8057a5e45df888ed08aa4f38c695d014",
+      "sourceName": "alpha/InfinityMintAsset.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Asset.sol",
+        "./Authentication.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "InfinityMintAsset"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/SimpleToken.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "2f9cb0a81221ad131813e4c60b6eb16b",
+      "sourceName": "alpha/core/assets/SimpleToken.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../InfinityMintAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleToken"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/SimpleSVG.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "0f93eb70958e2c4f21d7015e18740693",
+      "sourceName": "alpha/core/assets/SimpleSVG.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../InfinityMintAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleSVG"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/SimpleImage.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "297047dd3c0ffc532be9af7c87f02bcb",
+      "sourceName": "alpha/core/assets/SimpleImage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../InfinityMintAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleImage"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/Pregenerated.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "42ca38710c1222538a5aa72cd797af7e",
+      "sourceName": "alpha/core/assets/Pregenerated.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SimpleImage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pregenerative"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/SimpleAny.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "d83caf0dc3f5c8e4a19dcdee709be58e",
+      "sourceName": "alpha/core/assets/SimpleAny.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../InfinityMintAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleAny"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/RaritySVG.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "496193531e578c63ad4a58237db67baa",
+      "sourceName": "alpha/core/assets/RaritySVG.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../InfinityMintAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RaritySVG"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/RarityImage.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "255f41db8b8756b60f6d0a6b7cfd7a2d",
+      "sourceName": "alpha/core/assets/RarityImage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./RaritySVG.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RarityImage"
+      ]
+    },
+    "/Users/llydiacross/Sources/grafnet/grafnet/alpha/core/assets/RarityAny.sol": {
+      "lastModificationDate": 1684334817732,
+      "contentHash": "de837ef0f4b456cac8192ec016e1e760",
+      "sourceName": "alpha/core/assets/RarityAny.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 20
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./RaritySVG.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RarityAny"
+      ]
+    }
+  }
+}

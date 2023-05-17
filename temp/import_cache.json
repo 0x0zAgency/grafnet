@@ -1,0 +1,64 @@
+{
+  "updated": 1684336004306,
+  "database": {
+    "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg": {
+      "extension": ".svg",
+      "name": "grafnet",
+      "dir": "/Users/llydiacross/Sources/grafnet/grafnet/imports",
+      "base": "grafnet.svg",
+      "checksum": "3e379d8159f57ed03cb1871165da14da",
+      "settings": []
+    },
+    "9ea01acefa4e58e9dc452a4fcc28479b665d096126654fc6f6f1eaefaa917bc9": {
+      "extension": ".svg",
+      "name": "ticket",
+      "base": "ticket.svg",
+      "checksum": "9ea01acefa4e58e9dc452a4fcc28479b665d096126654fc6f6f1eaefaa917bc9",
+      "dir": "/Users/llydiacross/Sources/grafnet/grafnet/projects/../imports//imports",
+      "settings": []
+    },
+    "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7": {
+      "extension": ".svg",
+      "name": "ticket",
+      "base": "ticket.svg",
+      "checksum": "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7",
+      "dir": "/Users/llydiacross/Sources/grafnet/grafnet/projects/../imports/",
+      "settings": []
+    }
+  },
+  "keys": {
+    "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "imports/grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/imports/grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "imports/grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/imports/grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "imports/grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/imports/grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\Users\\llydiacross\\Sources\\grafnet\\grafnet\\imports\\grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\Users\\llydiacross\\Sources\\grafnet\\grafnet\\imports\\grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:imports\\grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\imports\\grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:imports\\grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\imports\\grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:imports\\grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\imports\\grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:\\grafnet.SVG": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:grafnet.svg": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "C:grafnet": "/Users/llydiacross/Sources/grafnet/grafnet/imports/grafnet.svg",
+    "/Users/llydiacross/Sources/grafnet/grafnet/projects/../imports//imports/ticket.svg": "9ea01acefa4e58e9dc452a4fcc28479b665d096126654fc6f6f1eaefaa917bc9",
+    "/projects/../imports//imports/ticket.svg": "9ea01acefa4e58e9dc452a4fcc28479b665d096126654fc6f6f1eaefaa917bc9",
+    "projects/../imports//imports/ticket.svg": "9ea01acefa4e58e9dc452a4fcc28479b665d096126654fc6f6f1eaefaa917bc9",
+    "/projects/": "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7",
+    "/Users/llydiacross/Sources/grafnet/grafnet/projects/../imports//ticket.svg": "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7",
+    "/projects/../imports//ticket.svg": "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7",
+    "projects/../imports//ticket.svg": "6807689f517a07dce6264a65bf6d023233b28ec7a37795fdfe15f2ce5c0e6fc7"
+  }
+}
