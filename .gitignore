@@ -26,6 +26,8 @@ dist-ssr
 /temp/
 /projects/bundles/
 /projects/compiled/
+/projects/deployed/ganache/
+/projects/deployed/hardhat/
 /deployments/hardhat/
 /deployments/ganache/
 /artifacts/
